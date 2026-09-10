@@ -7,7 +7,7 @@ about:
   latestVersion: "20250130"
   latestRelease: "20250130"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T15:51:31Z
+  collectedAt: 2026-09-10T20:12:58Z
 timeline:
   created: 2015-06-11
   lastCommit: 2025-04-15
@@ -21,7 +21,7 @@ popularity:
   release: 30
   contributor: 39
   pullRequest: 112
-  issue: 128
+  issue: 129
 language:
   Python: 59720
   HTML: 10866
@@ -34,7 +34,7 @@ recent:
     mergedPR: 0
     openPR: 0
     closedIssue: 0
-    openIssue: 0
+    openIssue: 1
     commit: 0
   last60d:
     since: 2026-07-12
@@ -42,7 +42,7 @@ recent:
     mergedPR: 0
     openPR: 0
     closedIssue: 0
-    openIssue: 1
+    openIssue: 2
     commit: 0
   last90d:
     since: 2026-06-12
@@ -50,7 +50,7 @@ recent:
     mergedPR: 0
     openPR: 0
     closedIssue: 0
-    openIssue: 1
+    openIssue: 2
     commit: 0
   last180d:
     since: 2026-03-14
@@ -58,7 +58,7 @@ recent:
     mergedPR: 0
     openPR: 0
     closedIssue: 0
-    openIssue: 3
+    openIssue: 4
     commit: 0
   last360d:
     since: 2025-09-15
@@ -66,7 +66,7 @@ recent:
     mergedPR: 0
     openPR: 1
     closedIssue: 0
-    openIssue: 4
+    openIssue: 5
     commit: 0
   last720d:
     since: 2024-09-20
@@ -74,18 +74,18 @@ recent:
     mergedPR: 1
     openPR: 2
     closedIssue: 1
-    openIssue: 5
+    openIssue: 6
     commit: 9
 total:
   release: 30
   mergedPR: 38
   openPR: 8
   closedIssue: 118
-  openIssue: 10
+  openIssue: 11
   commit: 645
 ---
 path: /home/runner/.x-repo/github.com/elceef/dnstwist
-collectedAt: 2026-09-10T15:51:32Z
+collectedAt: 2026-09-10T20:12:59Z
 loc:
   Python:
     code: 1662
