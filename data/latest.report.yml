@@ -7,7 +7,7 @@ about:
   latestVersion: "20250130"
   latestRelease: "20250130"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T03:18:45Z
+  collectedAt: 2026-09-11T20:42:57Z
 timeline:
   created: 2015-06-11
   lastCommit: 2025-04-15
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-01-30
   lastPrerelease: 
 popularity:
-  star: 5734
+  star: 5735
   watcher: 152
   fork: 852
   release: 30
@@ -85,7 +85,7 @@ total:
   commit: 645
 ---
 path: /home/runner/.x-repo/github.com/elceef/dnstwist
-collectedAt: 2026-09-11T03:18:45Z
+collectedAt: 2026-09-11T20:42:58Z
 loc:
   Python:
     code: 1662
