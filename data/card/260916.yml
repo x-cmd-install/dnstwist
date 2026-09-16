@@ -197,4 +197,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 4 are checked with a SAST tool'
 ---
-{"id":197653162,"author":{"login":"elceef","id":8627380,"node_id":"MDQ6VXNlcjg2MjczODA=","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOAjiI9M4Lx_Kq","tag_name":"20250130","target_commitish":"master","name":"dnstwist 20250130","draft":false,"immutable":false,"prerelease":false,"created_at":"2025-01-30T19:43:23Z","updated_at":"2025-01-30T19:47:15Z","published_at":"2025-01-30T19:47:15Z","assets":[],"body":"Changes:\r\n- Improved WHOIS client\r\n- Minor updates to homoglyph fuzzer"}
