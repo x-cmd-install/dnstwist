@@ -30,8 +30,8 @@ Overall score: **2 / 10**
 
 Lowest-scoring checks:
 
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
-- **Token-Permissions** (-1/10) — No tokens found
 - **Maintained** (0/10) — 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
 
 ## Source
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,777 · **Forks**: 856 · **Open issues**: 128 · **Contributors**: 38
+- **Stars**: 5,778 · **Forks**: 856 · **Open issues**: 128 · **Contributors**: 38
 
 ## Totals (cumulative)
 
@@ -57,28 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-09 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-08-10 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-05-12 | 0 | 0 | 3 | 0 | 1 | 0 |
-| 360d | 2025-11-13 | 0 | 0 | 3 | 0 | 3 | 0 |
-| last720d | 2024-11-18 | 1 | 1 | 5 | 0 | 5 | 7 |
-
-## Distribution status
-
-Reported by **73** distros on [repology.org](https://repology.org/project/dnstwist). **25** are ✅ on the latest upstream release, **44** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0~20250130` | ⚠️ outdated |
-| Debian 14 | `0~20250130` | ⚠️ outdated |
-| Debian 13 | `0~20250130` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0~20250130` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0~20240116` | ⚠️ outdated |
-| Homebrew | `20250130` | ✅ latest |
-| Fedora rawhide | `20250130` | ✅ latest |
-| Nix unstable | `20250130` | ✅ latest |
-| Alpine edge | `20250130` | ✅ latest |
+| 30d | 2026-10-10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-10 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-08-11 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-05-13 | 0 | 0 | 3 | 0 | 1 | 0 |
+| 360d | 2025-11-14 | 0 | 0 | 3 | 0 | 3 | 0 |
+| last720d | 2024-11-19 | 1 | 1 | 5 | 0 | 4 | 7 |
 
 ## Improve this data
 
@@ -89,4 +73,4 @@ Install metadata for dnstwist lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T04:45:41Z._
+_Snapshot: `data/card/261109.yml` · 2026-11-09T04:55:08Z._
