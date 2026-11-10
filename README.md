@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,778 · **Forks**: 856 · **Open issues**: 128 · **Contributors**: 38
+- **Stars**: 5,779 · **Forks**: 856 · **Open issues**: 128 · **Contributors**: 38
 
 ## Totals (cumulative)
 
@@ -57,12 +57,28 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-10 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last60d | 2026-09-10 | 0 | 0 | 3 | 0 | 0 | 0 |
-| 90d | 2026-08-11 | 0 | 0 | 3 | 0 | 0 | 0 |
-| last180d | 2026-05-13 | 0 | 0 | 3 | 0 | 1 | 0 |
-| 360d | 2025-11-14 | 0 | 0 | 3 | 0 | 3 | 0 |
-| last720d | 2024-11-19 | 1 | 1 | 5 | 0 | 4 | 7 |
+| 30d | 2026-10-11 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last60d | 2026-09-11 | 0 | 0 | 3 | 0 | 0 | 0 |
+| 90d | 2026-08-12 | 0 | 0 | 3 | 0 | 0 | 0 |
+| last180d | 2026-05-14 | 0 | 0 | 3 | 0 | 1 | 0 |
+| 360d | 2025-11-15 | 0 | 0 | 3 | 0 | 3 | 0 |
+| last720d | 2024-11-20 | 1 | 1 | 5 | 0 | 4 | 7 |
+
+## Distribution status
+
+Reported by **73** distros on [repology.org](https://repology.org/project/dnstwist). **25** are ✅ on the latest upstream release, **44** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0~20250130` | ⚠️ outdated |
+| Debian 14 | `0~20250130` | ⚠️ outdated |
+| Debian 13 | `0~20250130` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0~20250130` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0~20240116` | ⚠️ outdated |
+| Homebrew | `20250130` | ✅ latest |
+| Fedora rawhide | `20250130` | ✅ latest |
+| Nix unstable | `20250130` | ✅ latest |
+| Alpine edge | `20250130` | ✅ latest |
 
 ## Improve this data
 
@@ -73,4 +89,4 @@ Install metadata for dnstwist lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261109.yml` · 2026-11-09T04:55:08Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T06:10:48Z._
