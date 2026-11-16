@@ -1,19 +1,18 @@
-- repo: raspbian_oldstable
-  subrepo: main
+- repo: backbox_9
   srcname: dnstwist
   binnames:
     - dnstwist
   visiblename: dnstwist
-  version: 0~20221213
-  origversion: 0~20221213-1
+  version: 0~20240812
+  origversion: 0~20240812-1~bpo24.04.1~ppa1
   status: outdated
   maintainers:
     - team+pkg-security@tracker.debian.org
-    - fossdev@posteo.de
+    - wiene@debian.org
   categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
+    - net
+- repo: parrot
+  subrepo: parrot/main
   srcname: dnstwist
   binnames:
     - dnstwist
@@ -26,6 +25,48 @@
     - wiene@debian.org
   categories:
     - misc
+- repo: pardus_21
+  subrepo: main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20201228
+  origversion: 0~20201228-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - fossdev@posteo.de
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20250130
+  origversion: 0~20250130-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - wiene@debian.org
+  categories:
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20201228
+  origversion: 0~20201228-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - fossdev@posteo.de
+  categories:
+    - net
 - repo: alpine_3_17
   subrepo: community
   srcname: dnstwist
@@ -299,20 +340,6 @@
     - kdaudt@alpinelinux.org
   licenses:
     - Apache-2.0
-- repo: raspbian_testing
-  subrepo: main
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20250130
-  origversion: 0~20250130-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - wiene@debian.org
-  categories:
-    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: dnstwist
@@ -413,19 +440,6 @@
   maintainers:
     - team+pkg-security@tracker.debian.org
     - fossdev@posteo.de
-  categories:
-    - net
-- repo: backbox_9
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20240812
-  origversion: 0~20240812-1~bpo24.04.1~ppa1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - wiene@debian.org
   categories:
     - net
 - repo: blackarch
@@ -777,62 +791,6 @@
     - mail@fabian-affolter.ch
   licenses:
     - Apache-2.0
-- repo: pardus_21
-  subrepo: main
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20201228
-  origversion: 0~20201228-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - fossdev@posteo.de
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20250130
-  origversion: 0~20250130-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - wiene@debian.org
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20250130
-  origversion: 0~20250130-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - wiene@debian.org
-  categories:
-    - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20201228
-  origversion: 0~20201228-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - fossdev@posteo.de
-  categories:
-    - net
 - repo: pureos_landing
   subrepo: landing/main
   srcname: dnstwist
@@ -847,6 +805,48 @@
     - wiene@debian.org
   categories:
     - net
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20221213
+  origversion: 0~20221213-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - fossdev@posteo.de
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20250130
+  origversion: 0~20250130-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - wiene@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20250130
+  origversion: 0~20250130-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - wiene@debian.org
+  categories:
+    - misc
 - repo: t2
   srcname: dnstwist
   visiblename: dnstwist
