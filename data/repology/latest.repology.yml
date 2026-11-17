@@ -1,18 +1,12 @@
-- repo: backbox_9
+- repo: homebrew
   srcname: dnstwist
-  binnames:
-    - dnstwist
   visiblename: dnstwist
-  version: 0~20240812
-  origversion: 0~20240812-1~bpo24.04.1~ppa1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - wiene@debian.org
-  categories:
-    - net
-- repo: parrot
-  subrepo: parrot/main
+  version: "20250130"
+  origversion: null
+  status: newest
+  summary: Test domains for typo squatting, phishing and corporate espionage
+- repo: deepin_25
+  subrepo: community
   srcname: dnstwist
   binnames:
     - dnstwist
@@ -24,9 +18,9 @@
     - team+pkg-security@tracker.debian.org
     - wiene@debian.org
   categories:
-    - misc
-- repo: pardus_21
-  subrepo: main
+    - net
+- repo: devuan_4_0
+  subrepo: chimaera/main
   srcname: dnstwist
   binnames:
     - dnstwist
@@ -39,34 +33,6 @@
     - fossdev@posteo.de
   categories:
     - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20250130
-  origversion: 0~20250130-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - wiene@debian.org
-  categories:
-    - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20201228
-  origversion: 0~20201228-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - fossdev@posteo.de
-  categories:
-    - net
 - repo: alpine_3_17
   subrepo: community
   srcname: dnstwist
@@ -236,6 +202,20 @@
     - kdaudt@alpinelinux.org
   licenses:
     - Apache-2.0
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20250130
+  origversion: 0~20250130-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - wiene@debian.org
+  categories:
+    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: dnstwist
@@ -442,6 +422,19 @@
     - fossdev@posteo.de
   categories:
     - net
+- repo: backbox_9
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20240812
+  origversion: 0~20240812-1~bpo24.04.1~ppa1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - wiene@debian.org
+  categories:
+    - net
 - repo: blackarch
   srcname: dnstwist
   binname: dnstwist
@@ -522,62 +515,6 @@
     - wiene@debian.org
   categories:
     - misc
-- repo: deepin_25
-  subrepo: community
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20250130
-  origversion: 0~20250130-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - wiene@debian.org
-  categories:
-    - net
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20201228
-  origversion: 0~20201228-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - fossdev@posteo.de
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: 0~20250130
-  origversion: 0~20250130-1
-  status: outdated
-  maintainers:
-    - team+pkg-security@tracker.debian.org
-    - wiene@debian.org
-  categories:
-    - misc
-- repo: fedora_39
-  subrepo: updates
-  srcname: dnstwist
-  binnames:
-    - dnstwist
-  visiblename: dnstwist
-  version: "20240812"
-  origversion: 20240812-1.fc39
-  status: outdated
-  summary: Domain name permutation engine
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
 - repo: fedora_39
   subrepo: release
   srcname: dnstwist
@@ -592,15 +529,15 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: release
+- repo: fedora_39
+  subrepo: updates
   srcname: dnstwist
   binnames:
     - dnstwist
   visiblename: dnstwist
-  version: "20240116"
-  origversion: 20240116-1.fc40
-  status: legacy
+  version: "20240812"
+  origversion: 20240812-1.fc39
+  status: outdated
   summary: Domain name permutation engine
   licenses:
     - Apache-2.0
@@ -620,15 +557,15 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: fedora_41
-  subrepo: updates
+- repo: fedora_40
+  subrepo: release
   srcname: dnstwist
   binnames:
     - dnstwist
   visiblename: dnstwist
-  version: "20250130"
-  origversion: 20250130-1.fc41
-  status: newest
+  version: "20240116"
+  origversion: 20240116-1.fc40
+  status: legacy
   summary: Domain name permutation engine
   licenses:
     - Apache-2.0
@@ -643,6 +580,20 @@
   version: "20240812"
   origversion: 20240812-1.fc41
   status: legacy
+  summary: Domain name permutation engine
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: "20250130"
+  origversion: 20250130-1.fc41
+  status: newest
   summary: Domain name permutation engine
   licenses:
     - Apache-2.0
@@ -690,6 +641,20 @@
     - Apache-2.0
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: "20250130"
+  origversion: 20250130-5.fc45
+  status: newest
+  summary: Domain name permutation engine
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: dnstwist
@@ -704,13 +669,6 @@
     - Apache-2.0
   categories:
     - Unspecified
-- repo: homebrew
-  srcname: dnstwist
-  visiblename: dnstwist
-  version: "20250130"
-  origversion: null
-  status: newest
-  summary: Test domains for typo squatting, phishing and corporate espionage
 - repo: kali_rolling
   subrepo: main
   srcname: dnstwist
@@ -791,6 +749,62 @@
     - mail@fabian-affolter.ch
   licenses:
     - Apache-2.0
+- repo: pardus_21
+  subrepo: main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20201228
+  origversion: 0~20201228-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - fossdev@posteo.de
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20250130
+  origversion: 0~20250130-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - wiene@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20250130
+  origversion: 0~20250130-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - wiene@debian.org
+  categories:
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: dnstwist
+  binnames:
+    - dnstwist
+  visiblename: dnstwist
+  version: 0~20201228
+  origversion: 0~20201228-1
+  status: outdated
+  maintainers:
+    - team+pkg-security@tracker.debian.org
+    - fossdev@posteo.de
+  categories:
+    - net
 - repo: pureos_landing
   subrepo: landing/main
   srcname: dnstwist
